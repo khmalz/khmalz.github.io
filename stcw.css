@@ -1,0 +1,282 @@
+html {
+    position: relative;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Domine', serif;
+    scroll-behavior: smooth;
+}
+
+body {
+    height: 3000px;
+    margin-bottom: 80px;
+    padding-bottom: 90px;
+}
+
+nav {
+    background-color: #333;
+    width: 100%;
+    height: 60px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center; 
+    font-size: 16px;
+    z-index: 12;
+    position: fixed;
+}
+
+nav .brand {
+    margin-left: 50px;
+    font-size: 1.3em; 
+    color: white;
+}
+
+
+nav a {
+    color: white;
+    text-decoration: none; 
+}
+
+.navigasi ul {
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+    width: 310px;
+    margin-right: 50px;
+    font-size: 18px;
+}
+
+.navigasi ul li a {
+    color: white;
+}
+
+.navigasi ul li a:hover,
+.brand:hover {
+    color: #9e9e9e;
+}
+
+.header .profil {
+    padding-top: 120px;
+    text-align: center;
+    height: 580px;
+    background-color: #e3e3e3;
+    width: 100%;
+}
+
+.header .profil img {
+    width: 250px;
+    height: 250px;
+    border-radius: 50%;
+    border: 6px solid black;
+}
+
+.profil .teks {
+    font-size: 5.5em;
+    /* font-family: 'Merriweather', serif; */
+    font-family: 'Roboto', sans-serif;
+}
+
+.profil .text{
+    font-size: 1.8em;
+    margin-top: 15px;
+    font-weight: bolder;
+    /* font-family: 'Roboto', sans-serif; */
+    font-family: 'Domine', serif;
+    letter-spacing: 2px;
+}
+
+.about {
+    /* text-align: center; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding-bottom: 170px;
+    padding-top: 50px;
+}
+
+.judul {margin-bottom:65px;}
+
+.judul .teks-judul {
+    display: flex;
+    padding-bottom: 19px;
+    justify-content: center; 
+    font-size: 2em;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.judul .garis2 {
+    width: 220px;
+    border-top: 4px solid black;
+}
+
+.about .teks-biasa {
+    display: grid;
+    grid-template-columns: 1fr 20px 1fr;
+    margin: 0 150px 0 120px;
+}
+
+.portfolio {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #e3e3e3;
+    padding-bottom: 50px;
+    padding-top: 50px;
+}
+
+.judulp .teks-p {
+    display: flex;
+    padding-bottom: 19px;
+    justify-content: center; 
+    font-size: 2em;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.judulp .garise {
+    width: 240px;
+    height: 3px;
+    background-color: black;
+}
+
+.portfolio img {
+    width: 300px;
+    height: 300px;
+    border: 15px solid white;
+}
+
+.portfolio .gallery {
+    margin-top: 100px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 90px;
+}
+
+.kontak {
+    /* padding-bottom: 1000px; */
+    padding-top: 35px;
+}
+
+.header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.atas h4 {
+    font-size: 1.8em;
+    display: flex;
+    padding-bottom: 10px;
+    justify-content: center; 
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.atas .garises {
+    width: 240px;
+    height: 3px;
+    background-color: black;
+}
+
+.isi{
+    margin-top: 70px;
+    display: flex;
+    flex-direction: column;
+    /* justify-content: end; */
+    align-items: center;
+}
+
+.isi p {
+    font-size: 1.4em;
+    align-items: start;
+}
+
+.isi input {
+    margin-top: 3px;
+    margin-bottom: 22px;
+    width: 630px;
+    height: 40px;
+    font-size: 16px;
+    padding-left: 10px; 
+    border: 2px solid black;
+    background-color: #eee;
+    border-radius: 5px;
+}
+
+.pilih {
+    margin-top: 3px;
+    border-radius: 5px;
+    padding-left: 10px;
+    width: 644px;
+    height: 46px;
+    font-size: 17.2px;
+    border: 2px solid black;
+    background-color: #eee;
+}
+
+.isi textarea {
+    margin-top: 3px;
+    margin-bottom: 22px;
+    font-size: 16px;
+    width: 633px;
+    /* height: 40px; */
+    padding-left: 10px; 
+    padding-top: 10px;
+    border: 2px solid black;
+    background-color: #eee;
+    border-radius: 5px;
+}
+
+.PESAN p {
+    margin-top: 22px;
+    margin-bottom: 2px;
+}
+
+.tombol {
+    display: flex;
+    height: 40px;
+    justify-content: space-between; 
+}
+
+.tombol .kirim {
+    color: rgb(235, 231, 231);
+    border-radius: 3.5px;
+    background-color: rgb(28, 161, 28);
+    width: 100px;
+    border: 0.1px solid black;
+    cursor: pointer;
+}
+
+.tombol .restart {
+    color: rgb(235, 231, 231);
+    border-radius: 3.5px;
+    background-color: rgb(12, 60, 170);
+    width: 100px;
+    border: 0.1px solid black;
+    cursor: pointer;
+}
+
+footer {
+    background-color: #333;
+    width: 100%;
+    height: 80px;
+    position: absolute;
+    bottom: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.container p {
+    color: white;
+    /* font-size: 0.9em; */
+}
+
+.container p a {
+    text-decoration: none;
+    color: rgb(36, 207, 207);
+}
